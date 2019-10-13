@@ -28,9 +28,9 @@ npm i react-native-library-boilerplate
 
 ## Peer Dependencies
 
-###### IMPORTANT! You need install them.
+###### IMPORTANT! You need install them
 
-```
+```js
 "react": ">= 16.x.x",
 "react-native": ">= 0.55.x",
 ```
@@ -43,15 +43,13 @@ npm i react-native-library-boilerplate
 import { Component1, Component2 } from "react-native-library-boilerplate";
 ```
 
-## Component1 Usage 
+## Component1 Usage
 
 ```js
 <Component1 />
-````
+```
 
-
-### Configuration - Props
-
+# Configuration - Props
 
 | Property |  Type   | Default | Description                                             |
 | -------- | :-----: | :-----: | ------------------------------------------------------- |
@@ -60,8 +58,7 @@ import { Component1, Component2 } from "react-native-library-boilerplate";
 | gradient | boolean |  false  | make the button with a gradient background and a shadow |
 | width    | number  |   150   | change the button's width                               |
 
-
-### Future Plans
+## Future Plans
 
 - [x] ~~LICENSE~~
 - [ ] Write an article about the lib on Medium
