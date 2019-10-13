@@ -1,4 +1,4 @@
-<img alt="React Native Library Boilerplate" src="https://github.com/WrathChaos/react-native-library-boilerplate/blob/master/assets/logo.png" width="1050"/>
+<img alt="React Native Library Boilerplate" src="assets/logo.png" width="1050"/>
 
 
 [![Battle Tested ✅](https://img.shields.io/badge/-Battle--Tested%20%E2%9C%85-03666e?style=for-the-badge)](https://github.com/WrathChaos/react-native-library-boilerplate)
@@ -15,14 +15,12 @@
 
 <p align="center">
   <img alt="React Native Library Boilerplate"
-        src="https://github.com/WrathChaos/react-native-library-boilerplate/blob/master/assets/Screenshots/JSLibraryBoilerplate.png" />
+        src="assets/Screenshots/JSLibraryBoilerplate.png" />
 </p>
 
-## Installation
+# Installation
 
 Add the dependency:
-
-### React Native:
 
 ```ruby
 npm i react-native-library-boilerplate
@@ -37,10 +35,7 @@ npm i react-native-library-boilerplate
 "react-native": ">= 0.55.x",
 ```
 
-# Your Component Options
-
-- Option 1 Component
-- Option 2 Component
+# Usage
 
 ## Import
 
@@ -48,18 +43,11 @@ npm i react-native-library-boilerplate
 import { Component1, Component2 } from "react-native-library-boilerplate";
 ```
 
-# Component1 Usage 
+## Component1 Usage 
 
 ```js
 <Component1 />
-```
-
-
-# Component2 Usage 
-
-```js
-<Component2 />
-```
+````
 
 
 ### Configuration - Props
@@ -73,9 +61,9 @@ import { Component1, Component2 } from "react-native-library-boilerplate";
 | width    | number  |   150   | change the button's width                               |
 
 
-### ToDos
+### Future Plans
 
-- [x] LICENSE
+- [x] ~~LICENSE~~
 - [ ] Write an article about the lib on Medium
 
 # Change Log
