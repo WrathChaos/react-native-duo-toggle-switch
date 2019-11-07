@@ -1,7 +1,7 @@
 {
-  "name": "react-native-library-boilerplate",
-  "version": "0.0.2",
-  "description": "Description for library",
+  "name": "react-native-duo-toggle-switch",
+  "version": "0.0.1",
+  "description": "Fully customizable animated duo toggle switch for React Native",
   "keywords": [
     "FreakyCoder",
     "freakycoder",
@@ -14,13 +14,15 @@
     "rn"
   ],
   "homepage": "https://www.freakycoder.com",
-  "bugs": "https://github.com/WrathChaos/react-native-library-boilerplate/issues",
-  "main": "./lib/src/index.js",
-  "repository": "git@github.com:WrathChaos/react-native-library-boilerplate.git",
+  "bugs": "https://github.com/WrathChaos/react-native-duo-toggle-switch/issues",
+  "main": "./lib/src/DuoToggleSwitch.js",
+  "repository": "git@github.com:WrathChaos/react-native-duo-toggle-switch.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "react": ">= 16.x.x",
-    "react-native": ">= 0.55.x"
+    "react-native": ">= 0.55.x",
+    "react-native-androw": ">= 0.0.34",
+    "react-native-material-ripple": ">= 0.9.1"
   }
 }

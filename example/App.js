@@ -1,6 +1,6 @@
 import React from "react";
-import { SafeAreaView, View, Text, StatusBar } from "react-native";
-import DuoToggleSwitch from "./lib/src/components/DuoToggleSwitch/DuoToggleSwitch";
+import { SafeAreaView, View, StatusBar } from "react-native";
+import DuoToggleSwitch from "react-native-duo-toggle-switch";
 
 const App = () => {
   return (
