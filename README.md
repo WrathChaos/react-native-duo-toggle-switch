@@ -50,22 +50,24 @@ import DuoToggleSwitch from "react-native-duo-toggle-switch";
 
 # Configuration - Props
 
-| Property          |  Type  | Default | Description                                                         |
-| ----------------- | :----: | :-----: | ------------------------------------------------------------------- |
-| width             | number | string  | 40%                                                                 | change the width however, you need to change the with of the each button as well!                |
-| height            | number | string  | 35                                                                  | change the height however, you need to change the height of the each button as well!             |
-| buttonWidth       | number | string  | 85                                                                  | change the width of the button however, you need to change the width of the container as well!   |
-| buttonHeight      | number | string  | 35                                                                  | change the height of the button however, you need to change the height of the container as well! |
-| borderRadius      | number |   50    | change the border radius                                            |
-| firstText         | string |   Map   | set the first button's (left one) text                              |
-| secondText        | string |  List   | set the second button's (right one) text                            |
-| activeColor       | string | #FBA928 | change the button's background color when it is active or pressed   |
-| inactiveColor     | string |  #fff   | change the button's background color when it is inactive or pressed |
-| activeTextColor   | string | #f1f1f1 | change the button's text color when it is active or pressed         |
-| inactiveTextColor | string | #757575 | change the button's text color when it is active or pressed         |
-| backgroundColor   | string |  #fff   | change the whole background color                                   |
-| shadowColor       | string |  #000   | change the shadow color                                             |
-| shadowStyle       | style  | default | set your own shadow style for the toggle switch                     |
+| Property          |   Type   | Default | Description                                                         |
+| ----------------- | :------: | :-----: | ------------------------------------------------------------------- |
+| width             |  number  | string  | 40%                                                                 | change the width however, you need to change the with of the each button as well! |
+| height            |  number  | string  | 35                                                                  | change the height however, you need to change the height of the each button as well! |
+| buttonWidth       |  number  | string  | 85                                                                  | change the width of the button however, you need to change the width of the container as well! |
+| buttonHeight      |  number  | string  | 35                                                                  | change the height of the button however, you need to change the height of the container as well! |
+| borderRadius      |  number  |   50    | change the border radius                                            |
+| firstText         |  string  |   Map   | set the first button's (left one) text                              |
+| secondText        |  string  |  List   | set the second button's (right one) text                            |
+| activeColor       |  string  | #FBA928 | change the button's background color when it is active or pressed   |
+| inactiveColor     |  string  |  #fff   | change the button's background color when it is inactive or pressed |
+| activeTextColor   |  string  | #f1f1f1 | change the button's text color when it is active or pressed         |
+| inactiveTextColor |  string  | #757575 | change the button's text color when it is active or pressed         |
+| backgroundColor   |  string  |  #fff   | change the whole background color                                   |
+| shadowColor       |  string  |  #000   | change the shadow color                                             |
+| shadowStyle       |  style   | default | set your own shadow style for the toggle switch                     |
+| onPressPrimary    | function |  null   | set your own onPress logic for first(primary) button                |
+| onPressSecondary  | function |  null   | set your own onPress logic for second(secondary) button             |
 
 ## Future Plans
 
