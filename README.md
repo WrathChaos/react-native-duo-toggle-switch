@@ -15,6 +15,17 @@
         src="assets/Screenshots/example.gif" />
 </p>
 
+# Version 1 🥰
+
+Version 1 is released with typescript and some breaking changes
+
+- Code Cleaning
+- Typescript
+- Better props
+- Fully customizable
+- Better animations
+- Better GIFs on documentation
+
 # Installation
 
 Add the dependency:
@@ -27,12 +38,7 @@ npm i react-native-duo-toggle-switch
 
 ###### IMPORTANT! You need install them
 
-```js
-"react": ">= 16.x.x",
-"react-native": ">= 0.55.x",
-"react-native-androw": ">= 0.0.34",
-"react-native-material-ripple": ">= 0.9.1"
-```
+<b><i>Zero Dependency</i></b>
 
 # Usage
 
@@ -44,34 +50,52 @@ import DuoToggleSwitch from "react-native-duo-toggle-switch";
 
 ## Basic Usage
 
-```js
-<DuoToggleSwitch />
+```jsx
+<DuoToggleSwitch
+  primaryText="Map"
+  secondaryText="List"
+  onPrimaryPress={() => {}}
+  onSecondaryPress={() => {}}
+/>
+```
+
+## Custom Usage
+
+```jsx
+<DuoToggleSwitch
+  primaryText="Map"
+  secondaryText="List"
+  onPrimaryPress={() => {}}
+  onSecondaryPress={() => {}}
+  TouchableComponent={Ripple}
+  rippleColor="#fff"
+  rippleContainerBorderRadius={50}
+/>
 ```
 
 # Configuration - Props
 
-| Property          |   Type   | Default | Description                                                         |
-| ----------------- | :------: | :-----: | ------------------------------------------------------------------- |
-| width             |  number  | string  | 40%                                                                 | change the width however, you need to change the with of the each button as well! |
-| height            |  number  | string  | 35                                                                  | change the height however, you need to change the height of the each button as well! |
-| buttonWidth       |  number  | string  | 85                                                                  | change the width of the button however, you need to change the width of the container as well! |
-| buttonHeight      |  number  | string  | 35                                                                  | change the height of the button however, you need to change the height of the container as well! |
-| borderRadius      |  number  |   50    | change the border radius                                            |
-| firstText         |  string  |   Map   | set the first button's (left one) text                              |
-| secondText        |  string  |  List   | set the second button's (right one) text                            |
-| activeColor       |  string  | #FBA928 | change the button's background color when it is active or pressed   |
-| inactiveColor     |  string  |  #fff   | change the button's background color when it is inactive or pressed |
-| activeTextColor   |  string  | #f1f1f1 | change the button's text color when it is active or pressed         |
-| inactiveTextColor |  string  | #757575 | change the button's text color when it is active or pressed         |
-| backgroundColor   |  string  |  #fff   | change the whole background color                                   |
-| shadowColor       |  string  |  #000   | change the shadow color                                             |
-| shadowStyle       |  style   | default | set your own shadow style for the toggle switch                     |
-| onPressPrimary    | function |  null   | set your own onPress logic for first(primary) button                |
-| onPressSecondary  | function |  null   | set your own onPress logic for second(secondary) button             |
+TouchableComponent?: any;
+
+| Property           |   Type    |     Default      | Description                                                         |
+| ------------------ | :-------: | :--------------: | ------------------------------------------------------------------- |
+| primaryText        |  string   |    undefined     | set the primary button's (left one) text                            |
+| secondyText        |  string   |    undefined     | set the secondy button's (right one) text                           |
+| activeColor        |  string   |     #FBA928      | change the button's background color when it is active or pressed   |
+| inactiveColor      |  string   |       #fff       | change the button's background color when it is inactive or pressed |
+| activeTextColor    |  string   |     #f1f1f1      | change the button's text color when it is active or pressed         |
+| inactiveTextColor  |  string   |     #757575      | change the button's text color when it is active or pressed         |
+| onPrimaryPress     | function  |       null       | set your own onPress logic for first(primary) button                |
+| onSecondaryPress   | function  |       null       | set your own onPress logic for second(secondary) button             |
+| style              | ViewStyle |     default      | set or override style for the main container                        |
+| primaryTextStyle   | TextView  |     default      | set or override style for primary text style                        |
+| secondaryTextStyle | TextView  |     default      | set or override style for secondary text style                      |
+| TouchableComponent | component | TouchableOpacity | set your own Pressable functionality instead of `TouchableOpacity`  |
 
 ## Future Plans
 
 - [x] ~~LICENSE~~
+- [x] ~~Typescript~~
 - [ ] Color Change Animation
 - [ ] Write an article about the lib on Medium
 

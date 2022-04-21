@@ -19,9 +19,6 @@
   "repository": "git@github.com:WrathChaos/react-native-duo-toggle-switch.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "react-native-material-ripple": "^0.9.1"
-  },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",

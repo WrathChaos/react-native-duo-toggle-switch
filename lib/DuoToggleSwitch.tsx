@@ -26,8 +26,8 @@ interface DuoToggleSwitchProps {
   activeTextColor?: string;
   inactiveTextColor?: string;
   TouchableComponent?: any;
-  onPrimaryPress?: () => void;
-  onSecondaryPress?: () => void;
+  onPrimaryPress: () => void;
+  onSecondaryPress: () => void;
 }
 
 const DuoToggleSwitch: React.FC<DuoToggleSwitchProps> = ({

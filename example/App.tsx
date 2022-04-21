@@ -1,12 +1,11 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import Ripple from "react-native-material-ripple";
-import DuoToggleSwitch from "./lib/DuoToggleSwitch";
+import DuoToggleSwitch from "react-native-duo-toggle-switch";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
       <StatusBar style="auto" />
       <View
         style={{
@@ -20,11 +19,13 @@ export default function App() {
         }}
       >
         <DuoToggleSwitch
-          primaryText="Hello"
-          secondaryText="Boom"
-          // TouchableComponent={Ripple}
-          // rippleColor="#fff"
-          // rippleContainerBorderRadius={50}
+          primaryText="Map"
+          secondaryText="List"
+          onPrimaryPress={() => {}}
+          onSecondaryPress={() => {}}
+          TouchableComponent={Ripple}
+          rippleColor="#fff"
+          rippleContainerBorderRadius={50}
         />
       </View>
     </View>
@@ -34,8 +35,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    paddingTop: 48,
     backgroundColor: "#fff",
     alignItems: "center",
-    justifyContent: "center",
   },
 });
