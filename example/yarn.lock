@@ -4518,10 +4518,10 @@
     "jscodeshift" "^0.11.0"
     "nullthrows" "^1.1.1"
 
-"react-native-duo-toggle-switch@^1.0.0":
-  "integrity" "sha512-wjyUDpn7Y0ZiwfeOU/BxD0jQhUED58vgmEC5gI4N67IDotf5Hc9p8sUVQffx0HBGP4R9mCLQpaDy0oT1TccoAg=="
-  "resolved" "https://registry.npmjs.org/react-native-duo-toggle-switch/-/react-native-duo-toggle-switch-1.0.0.tgz"
-  "version" "1.0.0"
+"react-native-duo-toggle-switch@^1.0.1":
+  "integrity" "sha512-PvmtTEn8fYVi3NB85xnosrAYt0cUH4I9mxlZQttealSJa0Bcm1s+P9GOqzLpUDksZMruzIGCUCFw4BM411qErQ=="
+  "resolved" "https://registry.npmjs.org/react-native-duo-toggle-switch/-/react-native-duo-toggle-switch-1.0.1.tgz"
+  "version" "1.0.1"
 
 "react-native-material-ripple@^0.9.1":
   "integrity" "sha512-dHjARdKoGD3LXwPh2TkURabywM5BfdpKc/AHplJTfBMalhVZ2bc7iJoJmNhNnmT/TZ+B3szL6uV1mO7Pv8zNeA=="
