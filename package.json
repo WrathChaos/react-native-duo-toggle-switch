@@ -1,6 +1,6 @@
 {
   "name": "react-native-duo-toggle-switch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fully customizable animated duo toggle switch for React Native",
   "keywords": [
     "FreakyCoder",
@@ -15,7 +15,7 @@
   ],
   "homepage": "https://www.freakycoder.com",
   "bugs": "https://github.com/WrathChaos/react-native-duo-toggle-switch/issues",
-  "main": "./lib/DuoToggleSwitch.js",
+  "main": "./build/dist/DuoToggleSwitch.js",
   "repository": "git@github.com:WrathChaos/react-native-duo-toggle-switch.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
