@@ -17,6 +17,8 @@ type CustomTextStyleProp = StyleProp<TextStyle> | Array<StyleProp<TextStyle>>;
 
 interface DuoToggleSwitchProps {
   style?: CustomStyleProp;
+  primaryButtonStyle?: CustomStyleProp;
+  secondaryButtonStyle?: CustomStyleProp;
   primaryTextStyle?: CustomTextStyleProp;
   secondaryTextStyle?: CustomTextStyleProp;
   primaryText: string;
@@ -39,7 +41,9 @@ const DuoToggleSwitch: React.FC<DuoToggleSwitchProps> = ({
   activeTextColor = "#f1f1f1",
   inactiveTextColor = "#757575",
   primaryText,
+  secondaryButtonStyle,
   secondaryText,
+  primaryButtonStyle,
   TouchableComponent = TouchableOpacity,
   onPrimaryPress,
   onSecondaryPress,
@@ -84,7 +88,7 @@ const DuoToggleSwitch: React.FC<DuoToggleSwitchProps> = ({
       style={[styles.container, style, { transform: [{ scale: animation }] }]}
     >
       <TouchableComponent
-        style={_buttonContainer(setActiveTabColor(true), true)}
+        style={[_buttonContainer(setActiveTabColor(true), true), primaryButtonStyle]}
         onPress={handlePrimaryPress}
         {...rest}
       >
@@ -94,7 +98,7 @@ const DuoToggleSwitch: React.FC<DuoToggleSwitchProps> = ({
       </TouchableComponent>
       <TouchableComponent
         onPress={handleSecondaryPress}
-        style={_buttonContainer(setActiveTabColor(false), false)}
+        style={[_buttonContainer(setActiveTabColor(false), false), secondaryButtonStyle]}
         {...rest}
       >
         <Text
