@@ -77,20 +77,22 @@ import DuoToggleSwitch from "react-native-duo-toggle-switch";
 
 TouchableComponent?: any;
 
-| Property           |   Type    |     Default      | Description                                                         |
-| ------------------ | :-------: | :--------------: | ------------------------------------------------------------------- |
-| primaryText        |  string   |    undefined     | set the primary button's (left one) text                            |
-| secondyText        |  string   |    undefined     | set the secondy button's (right one) text                           |
-| activeColor        |  string   |     #FBA928      | change the button's background color when it is active or pressed   |
-| inactiveColor      |  string   |       #fff       | change the button's background color when it is inactive or pressed |
-| activeTextColor    |  string   |     #f1f1f1      | change the button's text color when it is active or pressed         |
-| inactiveTextColor  |  string   |     #757575      | change the button's text color when it is active or pressed         |
-| onPrimaryPress     | function  |       null       | set your own onPress logic for first(primary) button                |
-| onSecondaryPress   | function  |       null       | set your own onPress logic for second(secondary) button             |
-| style              | ViewStyle |     default      | set or override style for the main container                        |
-| primaryTextStyle   | TextView  |     default      | set or override style for primary text style                        |
-| secondaryTextStyle | TextView  |     default      | set or override style for secondary text style                      |
-| TouchableComponent | component | TouchableOpacity | set your own Pressable functionality instead of `TouchableOpacity`  |
+| Property             |   Type    |     Default      | Description                                                         |
+| -------------------- | :-------: | :--------------: | ------------------------------------------------------------------- |
+| primaryText          |  string   |    undefined     | set the primary button's (left one) text                            |
+| secondyText          |  string   |    undefined     | set the secondy button's (right one) text                           |
+| activeColor          |  string   |     #FBA928      | change the button's background color when it is active or pressed   |
+| inactiveColor        |  string   |       #fff       | change the button's background color when it is inactive or pressed |
+| activeTextColor      |  string   |     #f1f1f1      | change the button's text color when it is active or pressed         |
+| inactiveTextColor    |  string   |     #757575      | change the button's text color when it is active or pressed         |
+| onPrimaryPress       | function  |       null       | set your own onPress logic for `first(primary) button`              |
+| onSecondaryPress     | function  |       null       | set your own onPress logic for `second(secondary) button`           |
+| style                | ViewStyle |     default      | set or override style for the `main container`                      |
+| primaryButtonStyle   | ViewStyle |     default      | set or override style for the `primary button`                      |
+| secondaryButtonStyle | ViewStyle |     default      | set or override style for the `secondary button`                    |
+| primaryTextStyle     | TextView  |     default      | set or override style for `primary text style`                      |
+| secondaryTextStyle   | TextView  |     default      | set or override style for `secondary text style`                    |
+| TouchableComponent   | component | TouchableOpacity | set your own Pressable functionality instead of `TouchableOpacity`  |
 
 ## Future Plans
 
