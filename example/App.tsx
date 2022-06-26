@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View } from "react-native";
 import Ripple from "react-native-material-ripple";
-import DuoToggleSwitch from "./build/dist/DuoToggleSwitch";
+import DuoToggleSwitch from "react-native-duo-toggle-switch";
 
 export default function App() {
   return (
