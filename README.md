@@ -75,7 +75,6 @@ import DuoToggleSwitch from "react-native-duo-toggle-switch";
 
 # Configuration - Props
 
-TouchableComponent?: any;
 
 | Property             |   Type    |     Default      | Description                                                         |
 | -------------------- | :-------: | :--------------: | ------------------------------------------------------------------- |
