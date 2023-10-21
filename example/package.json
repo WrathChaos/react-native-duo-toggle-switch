@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "react": "18.1.0",
-    "react-native": "0.70.6",
+    "react-native": "0.72.6",
     "react-native-duo-toggle-switch": "^1.1.0",
     "react-native-material-ripple": "^0.9.1"
   },
